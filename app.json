@@ -1,7 +1,7 @@
 {
   "name": "Auto-Forward-Bot-V2",
   "description": "Telegram's Best Smart Plugin File Forward Bot",
-  "logo": "https://telegra.ph/file/5c3499c3b2ec282cf0c4e.jpg",
+  "logo": "https://telegra.ph/file/c8da76cb4b85187755d89.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -9,9 +9,9 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/DForDarkAngel",
-  "website": "https://github.com/Jijinr/Frwdit-V2",
-  "repository": "https://github.com/MRK-YT/Frwdit-V2",
+  "success_url": "https://t.me/athulx80",
+  "website": "https://github.com/athulx80",
+  "repository": "https://github.com/athulx80/Frwdit-V2",
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org or @UseTGSBot",

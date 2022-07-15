@@ -15,11 +15,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/Mo_Tech_Group'),
-        InlineKeyboardButton('Update Channel ♻️', url='https://t.me/Mo_Tech_YT')
+        InlineKeyboardButton('⭕ CHANNEL', url='https://t.me/+jG8skQAT68I5MmRl'),
+        InlineKeyboardButton('⭕ GROUP', url='https://t.me/Movies_Empire_Group')
         ],[
-        InlineKeyboardButton('💡 Deploy', url='https://youtu.be/B6jQGOJDVi0'),
-        InlineKeyboardButton('String Session 🎻', url ='https://youtu.be/WUN_12-dYOM')
+        InlineKeyboardButton('😌 DEV', url='https://t.me/athulx80'),
+        InlineKeyboardButton('⭕ GITHUB', url ='https://github.com/athulx80')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -34,8 +34,8 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('SouceCode 💡', url='https://github.com/Jijinr/Frwdit-V2'),
-        InlineKeyboardButton('close 🔐', callback_data='close_btn')
+        InlineKeyboardButton('⭕ SUB CHANNEL', url='https://t.me/Movies_Empire_Sub'),
+        InlineKeyboardButton('🔒 CLOSE', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -49,8 +49,8 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('💡 Deploy', url='https://github.com/Jijinr/Frwdit-V2'),
-        InlineKeyboardButton('close 🔐', callback_data='close_btn')
+        InlineKeyboardButton('😌 DEV', url='https://github.com/athulx80'),
+        InlineKeyboardButton('🔒 CLOSE', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(

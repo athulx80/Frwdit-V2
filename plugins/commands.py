@@ -18,7 +18,7 @@ async def start(client, message):
         InlineKeyboardButton('⭕ CHANNEL', url='https://t.me/+jG8skQAT68I5MmRl'),
         InlineKeyboardButton('⭕ GROUP', url='https://t.me/Movies_Empire_Group')
         ],[
-        InlineKeyboardButton('😌 DEV', url='https://t.me/athulx80'),
+        InlineKeyboardButton('⭕ DEVELOPER', url='https://t.me/athulx80'),
         InlineKeyboardButton('⭕ GITHUB', url ='https://github.com/athulx80')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -49,7 +49,7 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('😌 DEV', url='https://github.com/athulx80'),
+        InlineKeyboardButton('😌 CREATOR', url='https://github.com/athulx80'),
         InlineKeyboardButton('🔒 CLOSE', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)

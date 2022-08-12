@@ -15,8 +15,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('⭕ CHANNEL', url='https://t.me/+jG8skQAT68I5MmRl'),
-        InlineKeyboardButton('⭕ GROUP', url='https://t.me/Movies_Empire_Group')
+        InlineKeyboardButton('⭕ CHANNEL', url='https://t.me/+L8SWfrF_7m04ODZl'),
+        InlineKeyboardButton('⭕ GROUP', url='https://t.me/+hC5tRAvQHHplMWQ1')
         ],[
         InlineKeyboardButton('⭕ DEVELOPER', url='https://t.me/athulx80'),
         InlineKeyboardButton('⭕ GITHUB', url ='https://github.com/athulx80')
@@ -34,7 +34,7 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('⭕ SUB CHANNEL', url='https://t.me/Movies_Empire_Sub'),
+        InlineKeyboardButton('⭕ INLINE BOT', url='https://t.me/MoviesEmpire_AutoFilterV2_Bot'),
         InlineKeyboardButton('🔒 CLOSE', callback_data='close_btn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)

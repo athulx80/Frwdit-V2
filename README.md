@@ -40,7 +40,7 @@ SESSION - Pyrogram string Seccion - https://replit.com/@JijinR/PyroSessionString
 
 ### Deploying on Railway:
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://youtu.be/B6jQGOJDVi0)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/AFD-JE?referralCode=athulx)
 
 ### Legendary Way:
 #### On Linux Or VPS:
